@@ -1,0 +1,7 @@
+on: 
+  release:
+    types: [published]
+ jobs:
+  step:
+- name: SSH connection to Actions
+     uses: P3TERX/debugger-action@master

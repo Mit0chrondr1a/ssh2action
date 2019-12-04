@@ -1,0 +1,8 @@
+on: 
+  release:
+    types: [published]
+ jobs:
+  runs-on: ubuntu-18.04
+  step:
+- name: SSH connection to Actions
+     uses: P3TERX/debugger-action@master

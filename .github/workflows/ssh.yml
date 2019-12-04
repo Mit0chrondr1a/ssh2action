@@ -7,4 +7,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: SSH connection to Actions
-      uses: p3terx/debugger-action@master
+      uses: Ryan-Ng/debugger-action@master

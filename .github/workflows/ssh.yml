@@ -5,8 +5,9 @@ on:
     types: [published]
     
 jobs:
-  runs-on: ubuntu-18.04
+  build:
+   runs-on: ubuntu-18.04
   
   steps:
-- name: SSH connection to Actions
-     uses: P3TERX/debugger-action@master
+ - name: SSH connection to Actions
+   uses: P3TERX/debugger-action@master

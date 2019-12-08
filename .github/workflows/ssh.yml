@@ -4,7 +4,8 @@ on:
     types: [started]
 jobs:
   Ubuntu:
-    runs-on: ubuntu-latest
+    runs-on: macos-latest
     steps:
     - name: SSH connection to Actions
-      uses: Ryan-Ng/debugger-action@master
+      uses: csexton/debugger-action@master
+      #uses: Ryan-Ng/debugger-action@master
